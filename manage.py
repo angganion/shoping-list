@@ -3,7 +3,7 @@
 import os
 import sys
 
-
+#tes
 def main():
     """Run administrative tasks."""
     os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'shopping_list.settings')
