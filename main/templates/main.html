@@ -18,7 +18,7 @@
         </tr>
 
         {% comment %} Berikut cara memperlihatkan data produk di bawah baris ini {% endcomment %}
-
+        <p>Kamu menyimpan {{ products|length }} item pada aplikasi ini</p>
         {% for product in products %}
             <tr>
                 <td>{{product.name}}</td>
