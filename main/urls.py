@@ -9,7 +9,7 @@ from main.views import login_user
 from main.views import logout_user
 
 app_name = 'main'
-
+# tes deploy
 urlpatterns = [
     path('', show_main, name='show_main'),
     path('create-product', create_product, name='create_product'),
