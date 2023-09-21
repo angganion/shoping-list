@@ -22,7 +22,7 @@ class Migration(migrations.Migration):
                 ('date_added', models.DateField(auto_now_add=True)),
                 ('price', models.IntegerField()),
                 ('description', models.TextField()),
-                ('user', models.ForeignKey(on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
+                ('user', models.ForeignKey(default=1,on_delete=django.db.models.deletion.CASCADE, to=settings.AUTH_USER_MODEL)),
             ],
         ),
     ]
