@@ -134,7 +134,7 @@ def add_product_ajax(request):
         return HttpResponse(b"CREATED", status=201)
 
     return HttpResponseNotFound()
-
+ 
 
 @csrf_exempt
 def create_product_flutter(request):
